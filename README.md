@@ -18,6 +18,7 @@ What is progressive web app? See “[Progress Web Apps](https://developer.chrome
 - [2048](https://2048-opera-pwa.surge.sh)
 - [Get Kana!](https://getkana.com/app)
 - [Wave-PD1](https://alexgibson.github.io/wavepad/)
+- [QR Code Scanner](https://qrcodescan.in)
 
 ## Development
 
