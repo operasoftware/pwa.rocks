@@ -104,6 +104,12 @@
 		&--flipkart {
 			background:#007AD8 url(../images/flipkart.svg) 50% 50% / 38% auto no-repeat;
 			}
+		&--furkot {
+			background:
+				url(../images/furkot.svg) 50% 50% / auto 40% no-repeat,
+				linear-gradient(to bottom, #67ae15, #ffffff)
+				#67ae15;
+			}
 		&--geo-news {
 			background:#093777 url(../images/geo-news.svg) 50% 50% / auto 60% no-repeat;
 			}
