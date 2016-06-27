@@ -135,6 +135,10 @@
 				linear-gradient(to right, #78C850 50%, #A040A0 50%)
 				#78C850;
 			}
+		&--spotifinder {
+			image-rendering:pixelated;
+			background: #212121 url(../images/spotifinder.png) 50% 50% / 50% auto no-repeat;
+			}
 		&--poly-mail {
 			background:#E8372D url(../images/poly-mail.svg) 50% 50% / 50% auto no-repeat;
 			}
