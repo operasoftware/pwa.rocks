@@ -214,6 +214,10 @@
 		&--suggest {
 			background:#282828 url(../images/suggest.svg) 50% 50% / 20% auto no-repeat;
 			}
+		&--bee-deals {     
+			background: url(../images/bee-deals.svg) 50% 50% / 55% auto no-repeat,
+						linear-gradient(to bottom, #FFF, #e2e2e2);
+			}
 
 		}
 
