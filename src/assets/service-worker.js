@@ -51,6 +51,7 @@ self.addEventListener('install', function(event) {
 				'/images/snapdrop.svg',
 				'/images/soundslice.svg',
 				'/images/spaces.svg',
+				'/images/sprinkle.svg',
 				'/images/suggest.svg',
 				'/images/svgomg.svg',
 				'/images/telegram.svg',
