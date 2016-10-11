@@ -25,6 +25,7 @@ self.addEventListener('install', function(event) {
 				'/images/chrome-status.svg',
 				'/images/datememe.svg',
 				'/images/dev-opera.svg',
+				'/images/dropin.svg',
 				'/images/emojoy.svg',
 				'/images/expense-manager.svg',
 				'/images/financial-times.svg',
