@@ -1,0 +1,13 @@
+<svg width="70" height="50" viewBox="340 109 70 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path d="M5.953 11.972C2.665 11.972 0 9.285 0 5.986 0 2.68 2.66 0 5.953 0h58.094C67.335 0 70 2.687 70 5.986c0 3.306-2.66 5.986-5.953 5.986" id="a"/>
+    <mask id="b" x="0" y="0" width="70" height="11.972" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(340 109)">
+    <path d="M41.3 24.644h5.6v-2.816h-5.6v2.816zm5.6-11.267H24.5v2.817h22.4v-2.817zM41.3 30.28h5.6v-2.82h-5.6v2.82zm-5.6-8.452H24.5v2.816h11.2v-2.816zm0 5.633H24.5v2.82h11.2v-2.82zM16.1 4.928v45.07h2.8l5.6-4.225 5.567 4.225 5.633-4.225 5.6 4.225 5.6-4.225 5.6 4.225h2.8V4.927H16.1zM52.5 47.18l-5.6-4.225-5.6 4.225-5.6-4.225-5.6 4.225-5.6-4.225-5.6 4.225V7.743h33.6V47.18zM35.7 33.096H24.5v2.816h11.2v-2.816zm5.6 2.816h5.6v-2.816h-5.6v2.816z" fill="#FFF"/>
+    <use stroke="#FFF" mask="url(#b)" stroke-width="5.6" xlink:href="#a"/>
+    <path d="M7 10.563h8.4M54.6 10.563H63" stroke="#FFF" stroke-width="2.8" stroke-linecap="square"/>
+  </g>
+</svg>
