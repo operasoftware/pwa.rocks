@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0" viewBox="0 0 1280 1280" xml:space="preserve" enable-background="new 0 0 1280 1280">
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="Layer_1" x="0" y="0" viewBox="0 0 1280 1280" xmlns="http://www.w3.org/2000/svg">
   <style type="text/css">
     
 	.st0{fill:none;}
@@ -11,7 +12,7 @@
 	.st7{fill:url(#SVGID_5_);}
 
   </style>
-  <g id="Layer_8">
+  <g id="Layer_8" transform="matrix(1.771122, 0, 0, 1.917946, 75.375458, -1343.607422)">
     <polygon class="st0" points="311.44 1015.97 337.2 955.27 285.65 955.27 "/>
     <polygon class="st0" points="338.65 1033.95 339.38 1033.95 344.9 1033.95 385.23 1033.95 352.5 1001.22 "/>
     <polygon class="st0" points="339.38 1052.36 344.9 1052.36 416.71 1052.36 416.71 1050.92 344.9 1050.78 344.9 1050.94 331.45 1050.94 330.85 1052.36 "/>
