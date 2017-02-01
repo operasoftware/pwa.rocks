@@ -7,7 +7,6 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="description" content="A handful of nice examples showcasing what Progressive Web Apps can look like.">
-
 	<!-- <link rel="stylesheet" href="screen.css"> -->
 	<style>@font-face{font-family:Permanent Marker;font-weight:400;font-style:normal;src:local('Permanent Marker'),local('PermanentMarker'),url(fonts/permanent-marker.woff2) format('woff2'),url(fonts/permanent-marker.woff) format('woff')}.page{margin:auto;max-width:1024px;background:#222;color:#fff;font:1rem Helvetica,sans-serif}.header{padding:2rem 2rem 2.4rem;background:#383838}.header__title{margin:0;text-align:center;font:14vw/1 Permanent Marker,sans-serif}.header__link:focus{margin-left:-1rem;color:#5ac1f2;text-decoration:none}@media (min-width:30em){.header__title{font-size:4rem}}.tags{padding:.8em;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background:#222}.tags__label{margin:.2rem;padding:.4rem .8rem;border-radius:2rem;background:#383838;-webkit-transition:box-shadow .1s linear;transition:box-shadow .1s linear}.tags__radio:focus+.tags__label,.tags__radio:hover+.tags__label{box-shadow:0 0 0 .15rem #fff}.tags__radio:checked+.tags__label{background:#5ac1f2}.list{margin:0;padding:0;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;list-style:none}.list__item{width:100%}@media (min-width:30em){.list__item{width:50%}}@media (min-width:48em){.list__item{width:33.33%}}[data-tags]{display:none!important}[data-filter=all] [data-tags],[data-filter=business] [data-tags~=business],[data-filter=demo] [data-tags~=demo],[data-filter=event] [data-tags~=event],[data-filter=game] [data-tags~=game],[data-filter=news] [data-tags~=news],[data-filter=other] [data-tags~=other],[data-filter=reference] [data-tags~=reference],[data-filter=shopping] [data-tags~=shopping],[data-filter=social] [data-tags~=social],[data-filter=tool] [data-tags~=tool]{display:block!important}.app{position:relative;display:block;border-bottom:2.5rem solid;text-decoration:none}.app__wrapper{padding-top:62.5%}.app__title{position:absolute;right:0;bottom:-2.5rem;left:0;overflow:hidden;margin:0;padding-top:.55rem;height:2rem;background:rgba(0,0,0,.5);color:#fff;text-align:center;font:1.4rem/1 Permanent Marker,sans-serif}.app:focus,.app:hover{outline:none;box-shadow:0 0 0 .3rem #5ac1f2 inset}.app:focus .app__title,.app:hover .app__title{height:2rem;background:#5ac1f2}.suggest{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;padding-bottom:2.5rem;background:#2d2d2d;text-decoration:none}.suggest::before{margin:auto;color:#fff;font:10rem/1 Permanent Marker,sans-serif;content:'+'}.suggest::after{position:absolute;top:1.5rem;right:1.5rem;bottom:1.5rem;left:1.5rem;border-radius:.8rem;border:.15rem dashed #fff;content:''}.suggest:focus,.suggest:hover{outline:none;background:#5ac1f2}.footer{padding:2rem;background:#383838}.footer__text{margin:0;text-align:center;font:2rem/1 Permanent Marker,sans-serif}.footer__link{color:#5ac1f2;text-decoration:none}.hidden{position:absolute;top:0;left:0;clip:rect(0 0 0 0);white-space:nowrap}</style>
 	<link rel="manifest" href="pwa.webmanifest">
@@ -92,6 +91,8 @@
 
 		<a class="list__item app js-app"
 				href="https://airhorner.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="air-horner"
 				data-tags="tool demo">
 			<style>
@@ -109,6 +110,8 @@
 
 		<a class="list__item app js-app"
 				href="https://m.aliexpress.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="aliexpress"
 				data-tags="business shopping">
 			<div class="app__wrapper">
@@ -126,6 +129,8 @@
 
 		<a class="list__item app js-app"
 				href="https://app.babe.co.id/"
+				target="_blank"
+				rel="noopener"
 				data-app="babe"
 				data-tags="news business">
 			<div class="app__wrapper">
@@ -143,6 +148,8 @@
 
 		<a class="list__item app js-app"
 				href="https://billingsgazette.leeaws.com/pwa/"
+				target="_blank"
+				rel="noopener"
 				data-app="billings-gazette"
 				data-tags="news">
 			<div class="app__wrapper">
@@ -160,6 +167,8 @@
 
 		<a class="list__item app js-app"
 				href="https://currency-x.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="currency-x"
 				data-tags="tool">
 			<div class="app__wrapper">
@@ -177,6 +186,8 @@
 
 		<a class="list__item app js-app"
 				href="https://www.chromestatus.com/features"
+				target="_blank"
+				rel="noopener"
 				data-app="chrome-status"
 				data-tags="reference">
 			<div class="app__wrapper">
@@ -194,6 +205,8 @@
 
 		<a class="list__item app js-app"
 				href="https://www.datememe.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="datememe"
 				data-tags="social">
 			<div class="app__wrapper">
@@ -211,6 +224,8 @@
 
 		<a class="list__item app js-app"
 				href="https://dev.opera.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="dev-opera"
 				data-tags="reference">
 			<div class="app__wrapper">
@@ -228,6 +243,8 @@
 
 		<a class="list__item app js-app"
 				href="https://jakearchibald-gcm.appspot.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="emojoy"
 				data-tags="demo social">
 			<div class="app__wrapper">
@@ -245,6 +262,8 @@
 
 		<a class="list__item app js-app"
 				href="https://demo.vaadin.com/expense-manager/"
+				target="_blank"
+				rel="noopener"
 				data-app="expense-manager"
 				data-tags="demo tool">
 			<div class="app__wrapper">
@@ -262,6 +281,8 @@
 
 		<a class="list__item app js-app"
 				href="https://app.ft.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="financial-times"
 				data-tags="news">
 			<div class="app__wrapper">
@@ -279,6 +300,8 @@
 
 		<a class="list__item app js-app"
 				href="https://platform-status.mozilla.org/"
+				target="_blank"
+				rel="noopener"
 				data-app="firefox"
 				data-tags="reference">
 			<div class="app__wrapper">
@@ -296,6 +319,8 @@
 
 		<a class="list__item app js-app"
 				href="https://flipboard.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="flipboard"
 				data-tags="news social">
 			<div class="app__wrapper">
@@ -313,6 +338,8 @@
 
 		<a class="list__item app js-app"
 				href="https://m.flipkart.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="flipkart"
 				data-tags="business shopping">
 			<div class="app__wrapper">
@@ -330,6 +357,8 @@
 
 		<a class="list__item app js-app"
 				href="https://m.geo.tv/"
+				target="_blank"
+				rel="noopener"
 				data-app="geo-news"
 				data-tags="news">
 			<div class="app__wrapper">
@@ -347,6 +376,8 @@
 
 		<a class="list__item app js-app"
 				href="https://getkana.com/app"
+				target="_blank"
+				rel="noopener"
 				data-app="get-kana"
 				data-tags="game demo">
 			<div class="app__wrapper">
@@ -364,6 +395,8 @@
 
 		<a class="list__item app js-app"
 				href="https://events.google.com/io2016/"
+				target="_blank"
+				rel="noopener"
 				data-app="google-io"
 				data-tags="business event">
 			<div class="app__wrapper">
@@ -381,6 +414,8 @@
 
 		<a class="list__item app js-app"
 				href="https://guitar-tuner.appspot.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="guitar-tuner"
 				data-tags="tool demo">
 			<div class="app__wrapper">
@@ -398,6 +433,8 @@
 
 		<a class="list__item app js-app"
 				href="https://housing.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="housing"
 				data-tags="business">
 			<div class="app__wrapper">
@@ -415,6 +452,8 @@
 
 		<a class="list__item app js-app"
 				href="https://app.jalantikus.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="jalantikus"
 				data-tags="news business">
 			<div class="app__wrapper">
@@ -432,6 +471,8 @@
 
 		<a class="list__item app js-app"
 				href="https://andreasbovens.github.io/inbox-attack/"
+				target="_blank"
+				rel="noopener"
 				data-app="inbox-attack"
 				data-tags="game demo">
 			<div class="app__wrapper">
@@ -449,6 +490,8 @@
 
 		<a class="list__item app js-app"
 				href="https://konga.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="konga"
 				data-tags="business shopping">
 			<div class="app__wrapper">
@@ -466,6 +509,8 @@
 
 		<a class="list__item app js-app"
 				href="https://meatscope.camera/"
+				target="_blank"
+				rel="noopener"
 				data-app="meatscope"
 				data-tags="demo tool">
 			<div class="app__wrapper">
@@ -483,6 +528,8 @@
 
 		<a class="list__item app js-app"
 				href="https://www.oumy.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="oumy"
 				data-tags="business other">
 			<div class="app__wrapper">
@@ -500,6 +547,8 @@
 
 		<a class="list__item app js-app"
 				href="https://paperplanes.world/"
+				target="_blank"
+				rel="noopener"
 				data-app="paper-planes"
 				data-tags="game demo">
 			<div class="app__wrapper">
@@ -532,6 +581,8 @@
 
 		<a class="list__item app js-app"
 				href="https://www.piiko.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="piiko"
 				data-tags="business">
 			<div class="app__wrapper">
@@ -549,6 +600,8 @@
 
 		<a class="list__item app js-app"
 				href="https://podle.audio/"
+				target="_blank"
+				rel="noopener"
 				data-app="podle"
 				data-tags="demo other">
 			<div class="app__wrapper">
@@ -569,6 +622,8 @@
 
 		<a class="list__item app js-app"
 				href="https://www.pokedex.org/"
+				target="_blank"
+				rel="noopener"
 				data-app="pokedex"
 				data-tags="reference">
 			<div class="app__wrapper">
@@ -590,6 +645,8 @@
 
 		<a class="list__item app js-app"
 				href="https://poly-mail.appspot.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="poly-mail"
 				data-tags="demo social">
 			<div class="app__wrapper">
@@ -607,6 +664,8 @@
 
 		<a class="list__item app js-app"
 				href="https://polytimer.rocks/"
+				target="_blank"
+				rel="noopener"
 				data-app="polytimer"
 				data-tags="demo tool">
 			<div class="app__wrapper">
@@ -624,6 +683,8 @@
 
 		<a class="list__item app js-app"
 				href="https://deanhume.github.io/beer/"
+				target="_blank"
+				rel="noopener"
 				data-app="prog-beer"
 				data-tags="demo reference">
 			<div class="app__wrapper">
@@ -641,6 +702,8 @@
 
 		<a class="list__item app js-app"
 				href="https://2048-opera-pwa.surge.sh/"
+				target="_blank"
+				rel="noopener"
 				data-app="puzzle-2048"
 				data-tags="game demo">
 			<div class="app__wrapper">
@@ -658,6 +721,8 @@
 
 		<a class="list__item app js-app"
 				href="https://react-hn.appspot.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="reacthn"
 				data-tags="news social">
 			<div class="app__wrapper">
@@ -675,6 +740,8 @@
 
 		<a class="list__item app js-app"
 				href="https://riorun.theguardian.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="riorun"
 				data-tags="event social">
 			<div class="app__wrapper">
@@ -692,6 +759,8 @@
 
 		<a class="list__item app js-app"
 				href="https://qrcodescan.in/"
+				target="_blank"
+				rel="noopener"
 				data-app="qrcode"
 				data-tags="demo tool">
 			<div class="app__wrapper">
@@ -710,6 +779,8 @@
 
 		<a class="list__item app js-app"
 				href="https://smaller-pictures.appspot.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="smaller-pictures"
 				data-tags="demo tool">
 			<div class="app__wrapper">
@@ -727,6 +798,8 @@
 
 		<a class="list__item app js-app"
 				href="https://snapdrop.net/"
+				target="_blank"
+				rel="noopener"
 				data-app="snapdrop"
 				data-tags="tool">
 			<div class="app__wrapper">
@@ -744,6 +817,8 @@
 
 		<a class="list__item app js-app"
 				href="https://www.soundslice.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="soundslice"
 				data-tags="business other">
 			<div class="app__wrapper">
@@ -761,6 +836,8 @@
 
 		<a class="list__item app js-app"
 				href="https://spaces.google.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="spaces"
 				data-tags="social other">
 			<div class="app__wrapper">
@@ -778,6 +855,8 @@
 
 		<a class="list__item app js-app"
 				href="https://jakearchibald.github.io/svgomg/"
+				target="_blank"
+				rel="noopener"
 				data-app="svgomg"
 				data-tags="demo tool">
 			<div class="app__wrapper">
@@ -799,6 +878,8 @@
 
 		<a class="list__item app js-app"
 				href="https://web.telegram.org/"
+				target="_blank"
+				rel="noopener"
 				data-app="telegram"
 				data-tags="business social">
 			<div class="app__wrapper">
@@ -816,6 +897,8 @@
 
 		<a class="list__item app js-app"
 				href="https://www.selioapp.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="selio"
 				data-tags="shopping business">
 			<div class="app__wrapper">
@@ -836,6 +919,8 @@
 
 		<a class="list__item app js-app"
 				href="https://thesession.org/"
+				target="_blank"
+				rel="noopener"
 				data-app="session"
 				data-tags="other">
 			<div class="app__wrapper">
@@ -869,6 +954,8 @@
 
 		<a class="list__item app js-app"
 				href="https://voice-memos.appspot.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="voice-memos"
 				data-tags="tool demo">
 			<div class="app__wrapper">
@@ -886,6 +973,8 @@
 
 		<a class="list__item app js-app"
 				href="https://alexgibson.github.io/wavepad/"
+				target="_blank"
+				rel="noopener"
 				data-app="wave-pd1"
 				data-tags="tool demo">
 			<div class="app__wrapper">
@@ -903,6 +992,8 @@
 
 		<a class="list__item app js-app"
 				href="https://wiki-offline.jakearchibald.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="wiki-offline"
 				data-tags="demo reference">
 			<div class="app__wrapper">
@@ -923,6 +1014,8 @@
 
 		<a class="list__item app js-app"
 				href="https://www.progressivewebflap.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="web-flap"
 				data-tags="game demo">
 			<div class="app__wrapper">
@@ -943,6 +1036,8 @@
 
 		<a class="list__item app js-app"
 				href="https://samsunginternet.github.io/bubble/"
+				target="_blank"
+				rel="noopener"
 				data-app="bubble"
 				data-tags="demo tool viewer vr">
 			<div class="app__wrapper">
@@ -960,6 +1055,8 @@
 
 		<a class="list__item app js-app"
 				href="https://webnfc-shoppingcart.appspot.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="webnfc"
 				data-tags="demo shopping">
 			<div class="app__wrapper">
@@ -977,6 +1074,8 @@
 
 		<a class="list__item app js-app"
 				href="https://www.digikala.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="digikala"
 				data-tags="business shopping">
 			<div class="app__wrapper">
@@ -994,6 +1093,8 @@
 
 		<a class="list__item app js-app"
 				href="https://cloudfour.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="cloudfour"
 				data-tags="business other">
 			<div class="app__wrapper">
@@ -1011,6 +1112,8 @@
 
 		<a class="list__item app js-app"
 				href="https://code.nasa.gov/"
+				target="_blank"
+				rel="noopener"
 				data-app="NASA-Code"
 				data-tags="nasa code">
 			<div class="app__wrapper">
@@ -1028,6 +1131,8 @@
 
 		<a class="list__item app js-app"
 				href="https://resilientwebdesign.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="resilient-web-design"
 				data-tags="other">
 			<div class="app__wrapper">
@@ -1045,6 +1150,8 @@
 
 		<a class="list__item app js-app"
 				href="https://snapw.at"
+				target="_blank"
+				rel="noopener"
 				data-app="snapwat"
 				data-tags="tool demo">
 			<div class="app__wrapper">
@@ -1062,6 +1169,8 @@
 
 		<a class="list__item app js-app"
 				href="https://www.englishaccentsmap.com/"
+				target="_blank"
+				rel="noopener"
 				data-app="english-accents-map"
 				data-tags="reference demo social other">
 			<div class="app__wrapper">
@@ -1079,6 +1188,8 @@
 
 		<a class="list__item app js-app"
 		        href="https://sii.im/playground/notes"
+						target="_blank"
+						rel="noopener"
 		        data-app="notes"
 		        data-tags="tool demo">
 		    <div class="app__wrapper">
