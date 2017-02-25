@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128mm"
+   height="128mm"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg4603"
+   inkscape:version="0.92.0 r"
+   sodipodi:docname="learn-x-in-y-minutes.svg">
+  <defs
+     id="defs4597" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="328.94186"
+     inkscape:cy="242.77092"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="717"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4600">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-55.499871,-43.196407)">
+    <g
+       id="g5170"
+       transform="matrix(7.999924,0,0,8,-1331.9149,-1095.5655)">
+      <g
+         id="g4581"
+         transform="translate(148.96831,-39.290397)">
+        <rect
+           inkscape:export-ydpi="812.79999"
+           inkscape:export-xdpi="812.79999"
+           inkscape:export-filename="/home/himalay/Projects/x-in-y/src/assets/bg-logo.png"
+           ry="0"
+           rx="0"
+           y="181.63564"
+           x="24.460257"
+           height="16"
+           width="16"
+           id="rect4544"
+           style="opacity:0;fill:#fcfcfc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.74598074;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+        <path
+           inkscape:export-ydpi="812.79999"
+           inkscape:export-xdpi="812.79999"
+           inkscape:export-filename="/home/himalay/Projects/x-in-y/src/assets/bg-logo.png"
+           id="path4546"
+           d="m 27.975441,196.71622 h 2.610264 l 7.073613,-10.14428 2.801018,-4.01694 h -2.6101 l -1.947085,2.7924 -1.685262,2.41674 -3.632347,-5.20914 h -2.610423 l 4.937559,7.08094 z"
+           style="opacity:1;fill:#bdbdbd;fill-opacity:1;stroke:none;stroke-width:0.24571496;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:export-ydpi="812.79999"
+           inkscape:export-xdpi="812.79999"
+           inkscape:export-filename="/home/himalay/Projects/x-in-y/src/assets/bg-logo.png"
+           id="path4548"
+           d="m 34.334651,196.71622 h 2.610425 l -2.728325,-3.91255 -1.305212,1.87162 z"
+           style="opacity:1;fill:#eeeeee;fill-opacity:1;stroke:none;stroke-width:0.24571496;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:export-ydpi="812.79999"
+           inkscape:export-xdpi="812.79999"
+           inkscape:export-filename="/home/himalay/Projects/x-in-y/src/assets/bg-logo.png"
+           id="path4550"
+           d="m 27.070445,182.555 h -2.610261 l 4.937396,7.08077 -4.937071,7.08045 h 2.6101 l 3.632183,-5.20883 1.69e-4,1.6e-4 1.305047,-1.87161 -1.66e-4,-1.7e-4 -1.30505,-1.87163 z"
+           style="opacity:1;fill:#eeeeee;fill-opacity:1;stroke:none;stroke-width:0.24571496;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:export-ydpi="812.79999"
+           inkscape:export-xdpi="812.79999"
+           inkscape:export-filename="/home/himalay/Projects/x-in-y/src/assets/bg-logo.png"
+           inkscape:connector-curvature="0"
+           style="opacity:1;fill:#eeeeee;fill-opacity:1;stroke:none;stroke-width:0.24626736;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 34.336323,182.55533 h 2.622172 l -2.740606,3.91252 -1.311086,-1.87162 z"
+           id="path4552" />
+      </g>
+    </g>
+  </g>
+</svg>
