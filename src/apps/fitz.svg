@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>fitz_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fitz_icon">
+            <rect id="Rectangle" fill="#009688" x="0" y="0" width="300" height="300" rx="8"></rect>
+            <circle id="Wheel" stroke="#FFFFFF" stroke-width="6" opacity="0.352468297" cx="68.5" cy="184.5" r="34.5"></circle>
+            <circle id="Wheel" stroke="#FFFFFF" stroke-width="6" opacity="0.352468297" cx="230.5" cy="184.5" r="34.5"></circle>
+            <text id="i" font-family="Skia-Regular, Skia" font-size="100" font-weight="normal" fill="#FFFFFF">
+                <tspan x="127" y="187">i</tspan>
+            </text>
+            <text id="z" font-family="Skia-Regular, Skia" font-size="100" font-weight="normal" fill="#FFFFFF">
+                <tspan x="207" y="187">z</tspan>
+            </text>
+            <text id="t" font-family="Skia-Regular, Skia" font-size="120" font-weight="normal" fill="#FFFFFF">
+                <tspan x="156" y="187">t</tspan>
+            </text>
+            <text id="F" font-family="Skia-Regular, Skia" font-size="144" font-weight="normal" fill="#FFFFFF">
+                <tspan x="46" y="187">F</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
