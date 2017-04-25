@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="482px" height="482px" viewBox="0 0 482 482" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Flat.Style</title>
+    <desc>Icon for with https://flat.style</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#979797" stroke-width="0.8" fill="#FFFFFF" cx="241" cy="241" r="240"></circle>
+        <path d="M287.686232,49.074675 L473.617524,181.698177 C478.438112,200.664966 481,220.533302 481,241 C481,366.957643 383.968311,470.25232 260.575822,480.213142 L194.328802,432.959602 L354,209 L258.2,209 L287.686232,49.074675 Z M287.660067,49.0560116 L128.129934,272.817751 L128,272.72507 L287.581541,49 L287.660067,49.0560116 Z M128.385438,273 L223.8,273 L212.710167,333.148245 L128.385438,273 Z M194.472937,432.062037 L194.30993,432.946141 L194,432.72507 L194.472937,432.062037 Z" id="Combined-Shape" fill="#D8D8D8"></path>
+        <polygon id="Shape-Copy" fill="#000000" fill-rule="nonzero" points="287.7 49 128 273 223.8 273 194.3 433 354 209 258.2 209"></polygon>
+    </g>
+</svg>
