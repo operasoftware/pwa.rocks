@@ -1,0 +1,24 @@
+<svg viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <mask id="logo-mask" fill="white">
+      <circle cx="22.24" cy="22.24" r="22.24"></circle>
+    </mask>
+    <linearGradient x1="5.78%" y1="14.72%" x2="50%" y2="57.2%" id="logo-h-shadow">
+      <stop stop-color="#000000" stop-opacity="0.22" offset="0%"></stop>
+      <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <circle fill="#FFFFFF" opacity="0.9" cx="24.86" cy="24.86" r="24.71"></circle>
+    <g transform="translate(2.61, 2.63)">
+      <circle fill="#E86C52" stroke="#DB573C" stroke-width="2" cx="22.24" cy="22.24" r="21.24"></circle>
+      <g mask="url(#logo-mask)">
+        <path d="M-4.84,21.24 C1.9,20.97 4.52,29.19 13.5,29.13 C22.48,29.067 26.52,21.37 35.03,21.03 C43.55,20.69 45.6,28.34 54.44,28.28 C60.33,28.24 61.21,37.85 57.08,57.12 L-6.86,56.04 C-10.01,33.02 -9.33,21.42 -4.84,21.24 Z" fill="#4EC7FF"></path>
+        <g transform="translate(13.76, 11.56)">
+          <polygon fill="url(#logo-h-shadow)" points="16.94 0.067 33.26 16.34 15.42 36.64 0.01 21.3 4.8 0.067 12.32 7.61"></polygon>
+          <polygon fill="#FFFFFF" points="0.01 0.067 4.8 0.067 4.8 8.24 12.12 8.24 12.12 0.067 16.94 0.067 16.94 21.3 12.12 21.3 12.12 12.44 4.8 12.44 4.8 21.3 0.01 21.3"></polygon>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
