@@ -89,7 +89,23 @@
 	</nav>
 
 	<main class="list js-list" data-filter="all">
-
+		<a class="list__item app js-app"
+				href="https://tecbolt.co/"
+				data-app="tecbolt-pwa"
+				data-tags="news">
+			<div class="app__wrapper">
+				<h2 class="app__title">
+					TecBolt
+				</h2>
+			</div>
+			<style>
+				[data-app='tecbolt-pwa'] {
+					color: #5852d7;
+					background: currentColor url(apps/tecbolt-pwa.png) 50% 50% / 50% auto no-repeat;
+					}
+			</style>
+		</a>
+		
 		<a class="list__item app js-app"
 				href="https://airhorner.com/"
 				data-app="air-horner"
