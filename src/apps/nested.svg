@@ -1,0 +1,22 @@
+<svg id="Stage" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 160 160">
+  <defs>
+    <radialGradient id="radial-gradient" cx="80" cy="94.93" r="59.94" gradientTransform="translate(160 166.12) rotate(180) scale(1 0.75)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00c869"/>
+      <stop offset="0.01" stop-color="#00c869" stop-opacity="0.99"/>
+      <stop offset="0.28" stop-color="#00c869" stop-opacity="0.64"/>
+      <stop offset="0.52" stop-color="#00c869" stop-opacity="0.37"/>
+      <stop offset="0.73" stop-color="#00c869" stop-opacity="0.17"/>
+      <stop offset="0.9" stop-color="#00c869" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#00c869" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <title>Nested</title>
+  <g id="Nested_Logo_with_Guide" data-name="Nested Logo with Guide">
+    <g id="NstLogo3D">
+      <g id="NstLogo">
+        <path d="M140,94.64V66.19a20,20,0,0,0-10-17.32L80,20,30,48.87A20,20,0,0,0,20,66.19V94.64C20,155,140,155,140,94.64Zm-60,.42L30,66.19a10,10,0,0,1,5-8.66l45-26,45,26a10,10,0,0,1,5,8.66Z" style="fill: #14d769"/>
+      </g>
+      <path id="NstLogoD" d="M80,95.06l59.27-34.22a19.91,19.91,0,0,1,.73,5.35V94.64C140,124.51,109.75,140,80,140" style="fill: url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>
