@@ -46,6 +46,11 @@
 			demo
 		</label>
 
+		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="book" id="tags-book">
+		<label class="tags__label" for="tags-book">
+			book
+		</label>
+
 		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="event" id="tags-event">
 		<label class="tags__label" for="tags-event">
 			event
@@ -171,6 +176,22 @@
 				[data-app='currency-x'] {
 					color: #3d82f7;
 					background: currentColor url(apps/currency-x.svg) 100% 100% / auto 82% no-repeat;
+					}
+			</style>
+		</a>
+		<a class="list__item app js-app"
+				href="https://bodhi-library.com/"
+				data-app="Bodhi-Library"
+				data-tags="demo">
+			<div class="app__wrapper">
+				<h2 class="app__title">
+					Bodhi Library
+				</h2>
+			</div>
+			<style>
+				[data-app='Bodhi-Library'] {
+					color: #4c4c4c;
+					background: currentColor url(apps/bl.png) 50% 50% / auto 82% no-repeat;
 					}
 			</style>
 		</a>
