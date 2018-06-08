@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 166">
+ <!-- rect x="0.5" y="0.5" width="165" height="165" rx="10" ry="10" style="stroke:#353535;stroke-width:1;fill:#dddddd;"/ -->
+ <text x="83" y="40" font-family="Verdana" text-anchor="middle" style="stroke:#353535;fill:#444;margin:0 auto;stroke-width:0.5;" font-size="1.2em">solitaire game</text>
+ <text x="83" y="85" font-family="Verdana" text-anchor="middle" style="stroke:#353535;fill:#444;margin:0 auto;stroke-width:0.5;">
+  <tspan style="fill:#f00;stroke:#f00;" font-size="2.5em">♥</tspan>
+  <tspan style="fill:#000;stroke:#000;" font-size="2.5em">♠</tspan>
+  <tspan style="fill:#000;stroke:#000;" font-size="2.5em">♣</tspan>
+  <tspan style="fill:#f00;stroke:#f00;" font-size="2.5em">♦</tspan>
+ </text>
+ <text x="83" y="110" font-family="Verdana" text-anchor="middle" style="stroke:#353535;fill:#00F;margin:0 auto;stroke-width:0.5;" font-size="0.6em">play online &amp; offline</text>
+ <text x="83" y="120" font-family="Verdana" text-anchor="middle" style="stroke:#353535;fill:#00F;margin:0 auto;stroke-width:0.5;" font-size="0.6em">with the solutions of the games</text>
+
+ <text x="83" y="145" font-family="Verdana" text-anchor="middle" style="stroke:#353535;fill:#444;margin:0 auto;stroke-width:0.5;" font-size="0.8em">koolsol.com</text>
+ 
+</svg>
