@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="825px" height="825px" viewBox="0 0 825 825" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Thesis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AppIcon_blue" transform="translate(-613.000000, -619.000000)" fill="#FFFFFF">
+            <g id="Group" transform="translate(613.000000, 619.000000)">
+                <polyline id="Triangle" points="823.699698 1.07282629 824.311604 660.095972 164.676552 0.460919935 823.699698 1.07282629"></polyline>
+                <polyline id="Triangle" points="1.07282629 823.699698 0.460919935 164.676552 660.095972 824.311604 1.07282629 823.699698"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
