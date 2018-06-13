@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 	<title>A selection of Progressive Web Apps</title>
@@ -9,7 +10,217 @@
 	<meta name="description" content="A handful of nice examples showcasing what Progressive Web Apps can look like.">
 
 	<!-- <link rel="stylesheet" href="screen.css"> -->
-	<style>@font-face{font-family:Permanent Marker;font-weight:400;font-style:normal;src:local('Permanent Marker'),local('PermanentMarker'),url(fonts/permanent-marker.woff2) format('woff2'),url(fonts/permanent-marker.woff) format('woff')}.page{margin:auto;max-width:1024px;background:#222;color:#fff;font:1rem Helvetica,sans-serif}.header{padding:2rem 2rem 2.4rem;background:#383838}.header__title{margin:0;text-align:center;font:14vw/1 Permanent Marker,sans-serif}.header__link:focus{margin-left:-1rem;color:#5ac1f2;text-decoration:none}@media (min-width:30em){.header__title{font-size:4rem}}.tags{padding:.8em;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;background:#222}.tags__label{margin:.2rem;padding:.4rem .8rem;border-radius:2rem;background:#383838;-webkit-transition:box-shadow .1s linear;transition:box-shadow .1s linear}.tags__radio:focus+.tags__label,.tags__radio:hover+.tags__label{box-shadow:0 0 0 .15rem #fff}.tags__radio:checked+.tags__label{background:#5ac1f2}.list{margin:0;padding:0;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;list-style:none}.list__item{width:100%}@media (min-width:30em){.list__item{width:50%}}@media (min-width:48em){.list__item{width:33.33%}}[data-tags]{display:none!important}[data-filter=all] [data-tags],[data-filter=business] [data-tags~=business],[data-filter=demo] [data-tags~=demo],[data-filter=event] [data-tags~=event],[data-filter=game] [data-tags~=game],[data-filter=news] [data-tags~=news],[data-filter=other] [data-tags~=other],[data-filter=reference] [data-tags~=reference],[data-filter=shopping] [data-tags~=shopping],[data-filter=social] [data-tags~=social],[data-filter=tool] [data-tags~=tool]{display:block!important}.app{position:relative;display:block;border-bottom:2.5rem solid;text-decoration:none}.app__wrapper{padding-top:62.5%}.app__title{position:absolute;right:0;bottom:-2.5rem;left:0;overflow:hidden;margin:0;padding-top:.55rem;height:2rem;background:rgba(0,0,0,.5);color:#fff;text-align:center;font:1.4rem/1 Permanent Marker,sans-serif}.app:focus,.app:hover{outline:none;box-shadow:0 0 0 .3rem #5ac1f2 inset}.app:focus .app__title,.app:hover .app__title{height:2rem;background:#5ac1f2}.suggest{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;padding-bottom:2.5rem;background:#2d2d2d;text-decoration:none}.suggest::before{margin:auto;color:#fff;font:10rem/1 Permanent Marker,sans-serif;content:'+'}.suggest::after{position:absolute;top:1.5rem;right:1.5rem;bottom:1.5rem;left:1.5rem;border-radius:.8rem;border:.15rem dashed #fff;content:''}.suggest:focus,.suggest:hover{outline:none;background:#5ac1f2}.footer{padding:2rem;background:#383838}.footer__text{margin:0;text-align:center;font:2rem/1 Permanent Marker,sans-serif}.footer__link{color:#5ac1f2;text-decoration:none}.hidden{position:absolute;top:0;left:0;clip:rect(0 0 0 0);white-space:nowrap}</style>
+	<style>
+		@font-face {
+			font-family: Permanent Marker;
+			font-weight: 400;
+			font-style: normal;
+			src: local('Permanent Marker'), local('PermanentMarker'), url(fonts/permanent-marker.woff2) format('woff2'), url(fonts/permanent-marker.woff) format('woff')
+		}
+
+		.page {
+			margin: auto;
+			max-width: 1024px;
+			background: #222;
+			color: #fff;
+			font: 1rem Helvetica, sans-serif
+		}
+
+		.header {
+			padding: 2rem 2rem 2.4rem;
+			background: #383838
+		}
+
+		.header__title {
+			margin: 0;
+			text-align: center;
+			font: 14vw/1 Permanent Marker, sans-serif
+		}
+
+		.header__link:focus {
+			margin-left: -1rem;
+			color: #5ac1f2;
+			text-decoration: none
+		}
+
+		@media (min-width:30em) {
+			.header__title {
+				font-size: 4rem
+			}
+		}
+
+		.tags {
+			padding: .8em;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			background: #222
+		}
+
+		.tags__label {
+			margin: .2rem;
+			padding: .4rem .8rem;
+			border-radius: 2rem;
+			background: #383838;
+			-webkit-transition: box-shadow .1s linear;
+			transition: box-shadow .1s linear
+		}
+
+		.tags__radio:focus+.tags__label,
+		.tags__radio:hover+.tags__label {
+			box-shadow: 0 0 0 .15rem #fff
+		}
+
+		.tags__radio:checked+.tags__label {
+			background: #5ac1f2
+		}
+
+		.list {
+			margin: 0;
+			padding: 0;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			list-style: none
+		}
+
+		.list__item {
+			width: 100%
+		}
+
+		@media (min-width:30em) {
+			.list__item {
+				width: 50%
+			}
+		}
+
+		@media (min-width:48em) {
+			.list__item {
+				width: 33.33%
+			}
+		}
+
+		[data-tags] {
+			display: none!important
+		}
+
+		[data-filter=all] [data-tags],
+		[data-filter=business] [data-tags~=business],
+		[data-filter=demo] [data-tags~=demo],
+		[data-filter=event] [data-tags~=event],
+		[data-filter=game] [data-tags~=game],
+		[data-filter=news] [data-tags~=news],
+		[data-filter=other] [data-tags~=other],
+		[data-filter=reference] [data-tags~=reference],
+		[data-filter=shopping] [data-tags~=shopping],
+		[data-filter=social] [data-tags~=social],
+		[data-filter=tool] [data-tags~=tool] {
+			display: block!important
+		}
+
+		.app {
+			position: relative;
+			display: block;
+			border-bottom: 2.5rem solid;
+			text-decoration: none
+		}
+
+		.app__wrapper {
+			padding-top: 62.5%
+		}
+
+		.app__title {
+			position: absolute;
+			right: 0;
+			bottom: -2.5rem;
+			left: 0;
+			overflow: hidden;
+			margin: 0;
+			padding-top: .55rem;
+			height: 2rem;
+			background: rgba(0, 0, 0, .5);
+			color: #fff;
+			text-align: center;
+			font: 1.4rem/1 Permanent Marker, sans-serif
+		}
+
+		.app:focus,
+		.app:hover {
+			outline: none;
+			box-shadow: 0 0 0 .3rem #5ac1f2 inset
+		}
+
+		.app:focus .app__title,
+		.app:hover .app__title {
+			height: 2rem;
+			background: #5ac1f2
+		}
+
+		.suggest {
+			position: relative;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			padding-bottom: 2.5rem;
+			background: #2d2d2d;
+			text-decoration: none
+		}
+
+		.suggest::before {
+			margin: auto;
+			color: #fff;
+			font: 10rem/1 Permanent Marker, sans-serif;
+			content: '+'
+		}
+
+		.suggest::after {
+			position: absolute;
+			top: 1.5rem;
+			right: 1.5rem;
+			bottom: 1.5rem;
+			left: 1.5rem;
+			border-radius: .8rem;
+			border: .15rem dashed #fff;
+			content: ''
+		}
+
+		.suggest:focus,
+		.suggest:hover {
+			outline: none;
+			background: #5ac1f2
+		}
+
+		.footer {
+			padding: 2rem;
+			background: #383838
+		}
+
+		.footer__text {
+			margin: 0;
+			text-align: center;
+			font: 2rem/1 Permanent Marker, sans-serif
+		}
+
+		.footer__link {
+			color: #5ac1f2;
+			text-decoration: none
+		}
+
+		.hidden {
+			position: absolute;
+			top: 0;
+			left: 0;
+			clip: rect(0 0 0 0);
+			white-space: nowrap
+		}
+	</style>
 	<link rel="manifest" href="pwa.webmanifest">
 	<link rel="icon" href="favicon.ico">
 	<link rel="icon" type="image/png" sizes="228x228" href="images/icon-228x228.png">
@@ -17,6 +228,7 @@
 	<link rel="canonical" href="https://pwa.rocks/">
 
 </head>
+
 <body class="page">
 
 	<header class="header">
@@ -90,15 +302,12 @@
 
 	<main class="list js-list" data-filter="all">
 
-		<a class="list__item app js-app"
-				href="https://airhorner.com/"
-				data-app="air-horner"
-				data-tags="tool demo">
+		<a class="list__item app js-app" href="https://airhorner.com/" data-app="air-horner" data-tags="tool demo">
 			<style>
 				[data-app='air-horner'] {
 					color: #1194f6;
 					background: currentColor url(apps/air-horner.svg) 50% 50% / 46% auto no-repeat;
-					}
+				}
 			</style>
 			<div class="app__wrapper">
 				<h2 class="app__title">
@@ -107,10 +316,9 @@
 			</div>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://m.aliexpress.com/"
-				data-app="aliexpress"
-				data-tags="business shopping">
+
+
+		<a class="list__item app js-app" href="https://m.aliexpress.com/" data-app="aliexpress" data-tags="business shopping">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					AliExpress
@@ -120,14 +328,11 @@
 				[data-app='aliexpress'] {
 					color: #f73f16;
 					background: currentColor url(apps/aliexpress.svg) 50% 55% / 50% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://app.babe.co.id/"
-				data-app="babe"
-				data-tags="news business">
+		<a class="list__item app js-app" href="https://app.babe.co.id/" data-app="babe" data-tags="news business">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					BaBe
@@ -137,14 +342,11 @@
 				[data-app='babe'] {
 					color: #f90;
 					background: currentColor url(apps/babe.svg) 50% 50% / auto 80% no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://billingsgazette.leeaws.com/pwa/"
-				data-app="billings-gazette"
-				data-tags="news">
+		<a class="list__item app js-app" href="https://billingsgazette.leeaws.com/pwa/" data-app="billings-gazette" data-tags="news">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					The Billings Gazette
@@ -154,14 +356,11 @@
 				[data-app='billings-gazette'] {
 					color: #ffd200;
 					background: currentColor url(apps/billings-gazette.svg) 50% 50% / auto 75% no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://currency-x.com/"
-				data-app="currency-x"
-				data-tags="tool">
+		<a class="list__item app js-app" href="https://currency-x.com/" data-app="currency-x" data-tags="tool">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Currency Converter
@@ -171,14 +370,11 @@
 				[data-app='currency-x'] {
 					color: #3d82f7;
 					background: currentColor url(apps/currency-x.svg) 100% 100% / auto 82% no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://www.chromestatus.com/features"
-				data-app="chrome-status"
-				data-tags="reference">
+		<a class="list__item app js-app" href="https://www.chromestatus.com/features" data-app="chrome-status" data-tags="reference">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Chrome Status
@@ -188,14 +384,11 @@
 				[data-app='chrome-status'] {
 					color: #fff;
 					background: currentColor url(apps/chrome-status.svg) 50% 50% / auto 70% no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://www.datememe.com/"
-				data-app="datememe"
-				data-tags="social">
+		<a class="list__item app js-app" href="https://www.datememe.com/" data-app="datememe" data-tags="social">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Datememe
@@ -205,14 +398,11 @@
 				[data-app='datememe'] {
 					color: #0275d8;
 					background: currentColor url(apps/datememe.svg) 50% 50% / 50% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://dev.opera.com/"
-				data-app="dev-opera"
-				data-tags="reference">
+		<a class="list__item app js-app" href="https://dev.opera.com/" data-app="dev-opera" data-tags="reference">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Dev.Opera
@@ -222,14 +412,11 @@
 				[data-app='dev-opera'] {
 					color: #fff;
 					background: currentColor url(apps/dev-opera.svg) 50% 50% / 45% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://jakearchibald-gcm.appspot.com/"
-				data-app="emojoy"
-				data-tags="demo social">
+		<a class="list__item app js-app" href="https://jakearchibald-gcm.appspot.com/" data-app="emojoy" data-tags="demo social">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Emojoy
@@ -239,14 +426,11 @@
 				[data-app='emojoy'] {
 					color: #e1bee7;
 					background: currentColor url(apps/emojoy.svg) 50% 50% / 45% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://demo.vaadin.com/expense-manager/"
-				data-app="expense-manager"
-				data-tags="demo tool">
+		<a class="list__item app js-app" href="https://demo.vaadin.com/expense-manager/" data-app="expense-manager" data-tags="demo tool">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Expense Manager
@@ -256,14 +440,11 @@
 				[data-app='expense-manager'] {
 					color: #33383a;
 					background: currentColor url(apps/expense-manager.svg) 50% 45% / 55% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://app.ft.com/"
-				data-app="financial-times"
-				data-tags="news">
+		<a class="list__item app js-app" href="https://app.ft.com/" data-app="financial-times" data-tags="news">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Financial Times
@@ -273,14 +454,11 @@
 				[data-app='financial-times'] {
 					color: #fff1e0;
 					background: currentColor url(apps/financial-times.svg) 50% 50% / 50% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://platform-status.mozilla.org/"
-				data-app="firefox"
-				data-tags="reference">
+		<a class="list__item app js-app" href="https://platform-status.mozilla.org/" data-app="firefox" data-tags="reference">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Firefox Platform Status
@@ -290,14 +468,11 @@
 				[data-app='firefox'] {
 					color: #005da5;
 					background: currentColor url(apps/firefox.png) 50% 60% / auto 75% no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://flipboard.com/"
-				data-app="flipboard"
-				data-tags="news social">
+		<a class="list__item app js-app" href="https://flipboard.com/" data-app="flipboard" data-tags="news social">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Flipboard
@@ -307,14 +482,11 @@
 				[data-app='flipboard'] {
 					color: #cd0000;
 					background: currentColor url(apps/flipboard.svg) 50% 50% / 38% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://m.flipkart.com/"
-				data-app="flipkart"
-				data-tags="business shopping">
+		<a class="list__item app js-app" href="https://m.flipkart.com/" data-app="flipkart" data-tags="business shopping">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Flipkart
@@ -324,14 +496,11 @@
 				[data-app='flipkart'] {
 					color: #007ad8;
 					background: currentColor url(apps/flipkart.svg) 50% 50% / 38% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://m.geo.tv/"
-				data-app="geo-news"
-				data-tags="news">
+		<a class="list__item app js-app" href="https://m.geo.tv/" data-app="geo-news" data-tags="news">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Geo News
@@ -341,14 +510,11 @@
 				[data-app='geo-news'] {
 					color: #093777;
 					background: currentColor url(apps/geo-news.svg) 50% 50% / auto 60% no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://getkana.com/app"
-				data-app="get-kana"
-				data-tags="game demo">
+		<a class="list__item app js-app" href="https://getkana.com/app" data-app="get-kana" data-tags="game demo">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Get Kana!
@@ -358,14 +524,11 @@
 				[data-app='get-kana'] {
 					color: #7c7171;
 					background: currentColor url(apps/get-kana.svg) 50% 50% / 50% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://events.google.com/io2016/"
-				data-app="google-io"
-				data-tags="business event">
+		<a class="list__item app js-app" href="https://events.google.com/io2016/" data-app="google-io" data-tags="business event">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Google I/O
@@ -375,14 +538,11 @@
 				[data-app='google-io'] {
 					color: #77909d;
 					background: currentColor url(apps/google-io.svg) 50% 50% / 50% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://guitar-tuner.appspot.com/"
-				data-app="guitar-tuner"
-				data-tags="tool demo">
+		<a class="list__item app js-app" href="https://guitar-tuner.appspot.com/" data-app="guitar-tuner" data-tags="tool demo">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Guitar Tuner
@@ -392,14 +552,11 @@
 				[data-app='guitar-tuner'] {
 					color: #36474f;
 					background: currentColor url(apps/guitar-tuner.svg) 50% 50% / 46% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://housing.com/"
-				data-app="housing"
-				data-tags="business">
+		<a class="list__item app js-app" href="https://housing.com/" data-app="housing" data-tags="business">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Housing.com
@@ -409,14 +566,11 @@
 				[data-app='housing'] {
 					color: #34495e;
 					background: currentColor url(apps/housing.svg) 50% 50% / auto 65% no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://app.jalantikus.com/"
-				data-app="jalantikus"
-				data-tags="news business">
+		<a class="list__item app js-app" href="https://app.jalantikus.com/" data-app="jalantikus" data-tags="news business">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					JalanTikus
@@ -426,14 +580,11 @@
 				[data-app='jalantikus'] {
 					color: #0e161c;
 					background: currentColor url(apps/jalantikus.svg) 50% 50% / auto 65% no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://andreasbovens.github.io/inbox-attack/"
-				data-app="inbox-attack"
-				data-tags="game demo">
+		<a class="list__item app js-app" href="https://andreasbovens.github.io/inbox-attack/" data-app="inbox-attack" data-tags="game demo">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Inbox Attack
@@ -443,14 +594,11 @@
 				[data-app='inbox-attack'] {
 					color: #cbdea8;
 					background: currentColor url(apps/inbox-attack.svg) 50% 50% / 55% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://konga.com/"
-				data-app="konga"
-				data-tags="business shopping">
+		<a class="list__item app js-app" href="https://konga.com/" data-app="konga" data-tags="business shopping">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Konga EZ
@@ -460,14 +608,11 @@
 				[data-app='konga'] {
 					color: #335C88;
 					background: currentColor url(apps/konga.svg) 50% 50% / 38% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://meatscope.camera/"
-				data-app="meatscope"
-				data-tags="demo tool">
+		<a class="list__item app js-app" href="https://meatscope.camera/" data-app="meatscope" data-tags="demo tool">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Meatscope
@@ -477,14 +622,11 @@
 				[data-app='meatscope'] {
 					color: #03a9f4;
 					background: currentColor url(apps/meatscope.svg) 50% 50% / 46% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://www.oumy.com/"
-				data-app="oumy"
-				data-tags="business other">
+		<a class="list__item app js-app" href="https://www.oumy.com/" data-app="oumy" data-tags="business other">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Oumy
@@ -494,14 +636,11 @@
 				[data-app='oumy'] {
 					color: #f3fafd;
 					background: currentColor url(apps/oumy.svg) 50% 50% / 45% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://paperplanes.world/"
-				data-app="paper-planes"
-				data-tags="game demo">
+		<a class="list__item app js-app" href="https://paperplanes.world/" data-app="paper-planes" data-tags="game demo">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Paper Planes
@@ -511,7 +650,8 @@
 				[data-app='paper-planes'] {
 					color: #8aaedb;
 					background: linear-gradient(45deg, #89c6e1, #8a95d5);
-					}
+				}
+
 				[data-app='paper-planes']::before {
 					position: absolute;
 					top: 50%;
@@ -521,19 +661,15 @@
 					height: 0;
 					padding-bottom: 46%;
 					border-radius: 50%;
-					background:
-						url(apps/paper-planes.svg) no-repeat,
-						#9699d8;
+					background: url(apps/paper-planes.svg) no-repeat,
+					#9699d8;
 					box-shadow: 0 0 50px #acffef;
 					content: '';
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://www.piiko.com/"
-				data-app="piiko"
-				data-tags="business">
+		<a class="list__item app js-app" href="https://www.piiko.com/" data-app="piiko" data-tags="business">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Piiko
@@ -543,14 +679,11 @@
 				[data-app='piiko'] {
 					color: #222;
 					background: #212121 url(apps/piiko.png) 50% 50% / auto 75% no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://podle.audio/"
-				data-app="podle"
-				data-tags="demo other">
+		<a class="list__item app js-app" href="https://podle.audio/" data-app="podle" data-tags="demo other">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Podle
@@ -559,18 +692,14 @@
 			<style>
 				[data-app='podle'] {
 					color: #8f52ff;
-					background:
-						url(apps/podle.svg) 50% 50% / 50% auto no-repeat,
-						linear-gradient(300deg, #7f4fff, #9e54ff),
-						currentColor
-					}
+					background: url(apps/podle.svg) 50% 50% / 50% auto no-repeat,
+					linear-gradient(300deg, #7f4fff, #9e54ff),
+					currentColor
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://www.pokedex.org/"
-				data-app="pokedex"
-				data-tags="reference">
+		<a class="list__item app js-app" href="https://www.pokedex.org/" data-app="pokedex" data-tags="reference">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Pokedex
@@ -579,19 +708,14 @@
 			<style>
 				[data-app='pokedex'] {
 					color: #78c850;
-					background:
-						url(apps/pokedex.png) 50% 50% / 50% auto no-repeat,
-						linear-gradient(to right, #78c850 50%, #a040a0 50%)
-						currentColor;
+					background: url(apps/pokedex.png) 50% 50% / 50% auto no-repeat,
+					linear-gradient(to right, #78c850 50%, #a040a0 50%) currentColor;
 					image-rendering: pixelated;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://poly-mail.appspot.com/"
-				data-app="poly-mail"
-				data-tags="demo social">
+		<a class="list__item app js-app" href="https://poly-mail.appspot.com/" data-app="poly-mail" data-tags="demo social">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					PolyMail
@@ -601,14 +725,11 @@
 				[data-app='poly-mail'] {
 					color: #e8372d;
 					background: currentColor url(apps/poly-mail.svg) 50% 50% / 50% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://polytimer.rocks/"
-				data-app="polytimer"
-				data-tags="demo tool">
+		<a class="list__item app js-app" href="https://polytimer.rocks/" data-app="polytimer" data-tags="demo tool">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Polytimer
@@ -618,14 +739,11 @@
 				[data-app='polytimer'] {
 					color: #4A148C;
 					background: currentColor url(apps/polytimer.svg) 50% 50% / 50% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://deanhume.github.io/beer/"
-				data-app="prog-beer"
-				data-tags="demo reference">
+		<a class="list__item app js-app" href="https://deanhume.github.io/beer/" data-app="prog-beer" data-tags="demo reference">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Progressive Beer
@@ -635,14 +753,11 @@
 				[data-app='prog-beer'] {
 					color: #ffe400;
 					background: currentColor url(apps/prog-beer.svg) 50% 50% / auto 70% no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://2048-opera-pwa.surge.sh/"
-				data-app="puzzle-2048"
-				data-tags="game demo">
+		<a class="list__item app js-app" href="https://2048-opera-pwa.surge.sh/" data-app="puzzle-2048" data-tags="game demo">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					2048 Puzzle
@@ -652,14 +767,11 @@
 				[data-app='puzzle-2048'] {
 					color: #edc500;
 					background: currentColor url(apps/puzzle-2048.svg) 50% 50% / 65% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://react-hn.appspot.com/"
-				data-app="reacthn"
-				data-tags="news social">
+		<a class="list__item app js-app" href="https://react-hn.appspot.com/" data-app="reacthn" data-tags="news social">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					ReactHN
@@ -669,14 +781,11 @@
 				[data-app='reacthn'] {
 					color: #00d8ff;
 					background: currentColor url(apps/reacthn.svg) 50% 50% / 42% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://riorun.theguardian.com/"
-				data-app="riorun"
-				data-tags="event social">
+		<a class="list__item app js-app" href="https://riorun.theguardian.com/" data-app="riorun" data-tags="event social">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					RioRun
@@ -686,14 +795,11 @@
 				[data-app='riorun'] {
 					color: #1c92c8;
 					background: currentColor url(apps/riorun.svg) 50% 50% / 80% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://qrcodescan.in/"
-				data-app="qrcode"
-				data-tags="demo tool">
+		<a class="list__item app js-app" href="https://qrcodescan.in/" data-app="qrcode" data-tags="demo tool">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					QR Code Scanner
@@ -704,14 +810,11 @@
 					color: #5f7d8c;
 					background: currentColor url(apps/qrcode.svg) 50% 50% / 40% auto no-repeat;
 					image-rendering: pixelated;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://smaller-pictures.appspot.com/"
-				data-app="smaller-pictures"
-				data-tags="demo tool">
+		<a class="list__item app js-app" href="https://smaller-pictures.appspot.com/" data-app="smaller-pictures" data-tags="demo tool">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Smaller Pictures
@@ -721,14 +824,11 @@
 				[data-app='smaller-pictures'] {
 					color: #212121;
 					background: currentColor url(apps/smaller-pictures.svg) 50% 50% / 46% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://snapdrop.net/"
-				data-app="snapdrop"
-				data-tags="tool">
+		<a class="list__item app js-app" href="https://snapdrop.net/" data-app="snapdrop" data-tags="tool">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Snapdrop
@@ -738,14 +838,11 @@
 				[data-app='snapdrop'] {
 					color: #fafafa;
 					background: currentColor url(apps/snapdrop.svg) 50% 50% / 46% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://www.soundslice.com/"
-				data-app="soundslice"
-				data-tags="business other">
+		<a class="list__item app js-app" href="https://www.soundslice.com/" data-app="soundslice" data-tags="business other">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Soundslice
@@ -755,14 +852,11 @@
 				[data-app='soundslice'] {
 					color: #60506f;
 					background: currentColor url(apps/soundslice.svg) 50% 50% / 45% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://jakearchibald.github.io/svgomg/"
-				data-app="svgomg"
-				data-tags="demo tool">
+		<a class="list__item app js-app" href="https://jakearchibald.github.io/svgomg/" data-app="svgomg" data-tags="demo tool">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					SVGOMG
@@ -771,19 +865,15 @@
 			<style>
 				[data-app='svgomg'] {
 					color: #f2f2f2;
-					background:
-						url(apps/svgomg.svg) 50% 50% / 50% auto no-repeat,
-						linear-gradient(45deg, #e6e6e6 25%, transparent 25%, transparent 75%, #e6e6e6 75%, #e6e6e6) 0 0 / 20px 20px,
-						linear-gradient(45deg, #e6e6e6 25%, transparent 25%, transparent 75%, #e6e6e6 75%, #e6e6e6) 10px 10px / 20px 20px,
-						currentColor;
-					}
+					background: url(apps/svgomg.svg) 50% 50% / 50% auto no-repeat,
+					linear-gradient(45deg, #e6e6e6 25%, transparent 25%, transparent 75%, #e6e6e6 75%, #e6e6e6) 0 0 / 20px 20px,
+					linear-gradient(45deg, #e6e6e6 25%, transparent 25%, transparent 75%, #e6e6e6 75%, #e6e6e6) 10px 10px / 20px 20px,
+					currentColor;
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://web.telegram.org/"
-				data-app="telegram"
-				data-tags="business social">
+		<a class="list__item app js-app" href="https://web.telegram.org/" data-app="telegram" data-tags="business social">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Telegram
@@ -793,14 +883,11 @@
 				[data-app='telegram'] {
 					color: #e7ebf0;
 					background: currentColor url(apps/telegram.svg) 50% 50% / 46% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://www.selio.com/"
-				data-app="selio"
-				data-tags="shopping business">
+		<a class="list__item app js-app" href="https://www.selio.com/" data-app="selio" data-tags="shopping business">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Selio
@@ -809,18 +896,13 @@
 			<style>
 				[data-app='selio'] {
 					color: #a00f1d;
-					background:
-						url(apps/selio.svg) 50% 50% / auto 75% no-repeat,
-						linear-gradient(to bottom, #df1c1e, #a00f1d)
-						currentColor;
-					}
+					background: url(apps/selio.svg) 50% 50% / auto 75% no-repeat,
+					linear-gradient(to bottom, #df1c1e, #a00f1d) currentColor;
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://thesession.org/"
-				data-app="session"
-				data-tags="other">
+		<a class="list__item app js-app" href="https://thesession.org/" data-app="session" data-tags="other">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					The Session
@@ -830,7 +912,8 @@
 				[data-app='session'] {
 					color: #ddaf49;
 					background: url(apps/session.svg) 52% 50% / 70% auto no-repeat;
-					}
+				}
+
 				[data-app='session']::before {
 					position: absolute;
 					z-index: -1;
@@ -840,20 +923,16 @@
 					left: 10px;
 					border: 1px dashed #C93;
 					background: linear-gradient(#eb2, #da1);
-					box-shadow:
-						10px 10px 0 #E5B219,
-						-10px 10px 0 #E5B219,
-						-10px -10px 0 #E5B219,
-						10px -10px 0 #E5B219;
+					box-shadow: 10px 10px 0 #E5B219,
+					-10px 10px 0 #E5B219,
+					-10px -10px 0 #E5B219,
+					10px -10px 0 #E5B219;
 					content: '';
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://voice-memos.appspot.com/"
-				data-app="voice-memos"
-				data-tags="tool demo">
+		<a class="list__item app js-app" href="https://voice-memos.appspot.com/" data-app="voice-memos" data-tags="tool demo">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Voice Memos
@@ -863,14 +942,11 @@
 				[data-app='voice-memos'] {
 					color: #673ab7;
 					background: currentColor url(apps/voice-memos.svg) 50% 50% / auto 80% no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://alexgibson.github.io/wavepad/"
-				data-app="wave-pd1"
-				data-tags="tool demo">
+		<a class="list__item app js-app" href="https://alexgibson.github.io/wavepad/" data-app="wave-pd1" data-tags="tool demo">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Wave-PD1
@@ -880,14 +956,11 @@
 				[data-app='wave-pd1'] {
 					color: #191622;
 					background: currentColor url(apps/wave-pd1.svg) 50% 50% / auto 70% no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://wiki-offline.jakearchibald.com/"
-				data-app="wiki-offline"
-				data-tags="demo reference">
+		<a class="list__item app js-app" href="https://wiki-offline.jakearchibald.com/" data-app="wiki-offline" data-tags="demo reference">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Wiki Offline
@@ -896,18 +969,13 @@
 			<style>
 				[data-app='wiki-offline'] {
 					color: #eef0ed;
-					background:
-						url(apps/wiki-offline.svg) 50% 50% / 55% auto no-repeat,
-						linear-gradient(to bottom, #fefffc, #dfe1de)
-						currentColor;
-					}
+					background: url(apps/wiki-offline.svg) 50% 50% / 55% auto no-repeat,
+					linear-gradient(to bottom, #fefffc, #dfe1de) currentColor;
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://www.progressivewebflap.com/"
-				data-app="web-flap"
-				data-tags="game demo">
+		<a class="list__item app js-app" href="https://www.progressivewebflap.com/" data-app="web-flap" data-tags="game demo">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Web Flap
@@ -916,18 +984,14 @@
 			<style>
 				[data-app='web-flap'] {
 					color: #6cc851;
-					background:
-						url(apps/web-flap.png) 50% 50% / 50% auto no-repeat,
-						currentColor;
+					background: url(apps/web-flap.png) 50% 50% / 50% auto no-repeat,
+					currentColor;
 					image-rendering: pixelated;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://samsunginternet.github.io/bubble/"
-				data-app="bubble"
-				data-tags="demo tool viewer vr">
+		<a class="list__item app js-app" href="https://samsunginternet.github.io/bubble/" data-app="bubble" data-tags="demo tool viewer vr">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					bubble
@@ -937,14 +1001,11 @@
 				[data-app='bubble'] {
 					color: #987FFF;
 					background: currentColor url(apps/bubble.svg) 50% 50% / 50% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://webnfc-shoppingcart.appspot.com/"
-				data-app="webnfc"
-				data-tags="demo shopping">
+		<a class="list__item app js-app" href="https://webnfc-shoppingcart.appspot.com/" data-app="webnfc" data-tags="demo shopping">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					WebNFC Shopping Cart
@@ -954,14 +1015,11 @@
 				[data-app='webnfc'] {
 					color: #ffc107;
 					background: currentColor url(apps/webnfc.svg) 50% 50% / auto 75% no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://www.digikala.com/"
-				data-app="digikala"
-				data-tags="business shopping">
+		<a class="list__item app js-app" href="https://www.digikala.com/" data-app="digikala" data-tags="business shopping">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Digikala
@@ -971,14 +1029,11 @@
 				[data-app='digikala'] {
 					color: #eceff1;
 					background: currentColor url(apps/digikala.svg) 50% 50% / 70% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://cloudfour.com/"
-				data-app="cloudfour"
-				data-tags="business other">
+		<a class="list__item app js-app" href="https://cloudfour.com/" data-app="cloudfour" data-tags="business other">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Cloud Four
@@ -988,14 +1043,11 @@
 				[data-app='cloudfour'] {
 					color: #456BD9;
 					background: currentColor url(apps/cloud-four.svg) 50% 50% / 50% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://code.nasa.gov/"
-				data-app="NASA-Code"
-				data-tags="nasa code">
+		<a class="list__item app js-app" href="https://code.nasa.gov/" data-app="NASA-Code" data-tags="nasa code">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					CODE.NASA.GOV
@@ -1005,14 +1057,11 @@
 				[data-app='NASA-Code'] {
 					color: #050D1A;
 					background: currentColor url(apps/nasa_logo.svg) 50% 50% / 50% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://resilientwebdesign.com/"
-				data-app="resilient-web-design"
-				data-tags="other">
+		<a class="list__item app js-app" href="https://resilientwebdesign.com/" data-app="resilient-web-design" data-tags="other">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Resilient Web Design
@@ -1022,14 +1071,11 @@
 				[data-app='resilient-web-design'] {
 					color: #5F7995;
 					background: currentColor url(apps/resilient-web-design.svg) 50% 50% / 50% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://snapw.at"
-				data-app="snapwat"
-				data-tags="tool demo">
+		<a class="list__item app js-app" href="https://snapw.at" data-app="snapwat" data-tags="tool demo">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					Snapwat
@@ -1039,14 +1085,11 @@
 				[data-app='snapwat'] {
 					color: #987FFF;
 					background: currentColor url(apps/snapwat.svg) 50% 50% / 50% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-				href="https://www.englishaccentsmap.com/"
-				data-app="english-accents-map"
-				data-tags="reference demo social other">
+		<a class="list__item app js-app" href="https://www.englishaccentsmap.com/" data-app="english-accents-map" data-tags="reference demo social other">
 			<div class="app__wrapper">
 				<h2 class="app__title">
 					English Accents Map
@@ -1056,26 +1099,41 @@
 				[data-app='english-accents-map'] {
 					color: #192f5d;
 					background: currentColor url(apps/english-accents-map.svg) 50% 50% / 50% auto no-repeat;
-					}
+				}
 			</style>
 		</a>
 
-		<a class="list__item app js-app"
-		        href="https://sii.im/playground/notes"
-		        data-app="notes"
-		        data-tags="tool demo">
-		    <div class="app__wrapper">
-		        <h2 class="app__title">
-		            Notes
-		        </h2>
-		    </div>
-		    <style>
-		        [data-app='notes'] {
-		            color: #DF5780;
-		            background: currentColor url(apps/notes.svg) 50% 50% / 50% auto no-repeat;
-		            }
-		    </style>
+		<a class="list__item app js-app" href="https://sii.im/playground/notes" data-app="notes" data-tags="tool demo">
+			<div class="app__wrapper">
+				<h2 class="app__title">
+					Notes
+				</h2>
+			</div>
+			<style>
+				[data-app='notes'] {
+					color: #DF5780;
+					background: currentColor url(apps/notes.svg) 50% 50% / 50% auto no-repeat;
+				}
+			</style>
 		</a>
+		<!-- this section is for me -->
+		<a class="list__item app js-app" href="https://ngpwa-9f940.firebaseapp.com/" data-app="coffeeapp" data-tags="business shopping">
+			<div class="app__wrapper">
+				<h2 class="app__title">
+					CoffeeApp
+				</h2>
+			</div>
+			<style>
+				[data-app='coffeeapp'] {
+					color: #9400d3;
+					background: currentColor url(apps/coffee.png) 50% 50% / 50% auto no-repeat;
+				}
+			</style>
+		</a>
+
+
+		<!--this is my section -->
+
 
 		<a class="list__item suggest js-suggest" href="https://github.com/pwarocks/pwa.rocks" title="Suggest an app">
 			<span class="hidden">Suggest an app</span>
@@ -1093,7 +1151,8 @@
 	</footer>
 
 	<script src="script.js"></script>
-	
+
 
 </body>
+
 </html>
