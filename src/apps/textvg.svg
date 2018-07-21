@@ -1,0 +1,7 @@
+<svg width='100' height='100' xmlns="http://www.w3.org/2000/svg" version="1.1">
+<rect x='10' y='10' width='80' height='80' rx='2' ry='2' fill='#10c0a0' stroke='#10c0a0' stroke-width='10' />
+<polyline points='33,30 18,50 33,70' fill='none' stroke='#ffffff' stroke-width='7' stroke-linejoin='round' stroke-linecap='round'/>
+<polyline points='67,30 82,50 67,70' fill='none' stroke='#ffffff' stroke-width='7' stroke-linejoin='round' stroke-linecap='round'/>
+<circle cx='50' cy='52.5' r='10' fill='#ffffff' stroke='none' stroke-width='7' />
+<polygon points='50,32.5 40,50 60,50' fill='#ffffff' stroke='none' stroke-width='7' stroke-linejoin='round' />
+</svg>
