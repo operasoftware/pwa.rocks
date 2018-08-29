@@ -59,6 +59,7 @@
 
 		for (var i = 0; i < order.length; i++) {
 			var item = list.querySelector('[data-app=' + order[i] + ']');
+			console.log(item)
 			list.insertBefore(item, suggest);
 		}
 
