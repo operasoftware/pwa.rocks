@@ -91,6 +91,23 @@
 	<main class="list js-list" data-filter="all">
 
 		<a class="list__item app js-app"
+				href="https://lofi.news/"
+				data-app="lofi-news"
+				data-tags="news">
+			<div class="app__wrapper">
+				<h2 class="app__title">
+					Lofi.News
+				</h2>
+			</div>
+			<style>
+				[data-app='lofi-news'] {
+					color: #4e4376;
+					background: currentColor url(apps/lofi-news.svg) 50% 50% / 50% auto no-repeat;
+					}
+			</style>
+		</a>
+
+		<a class="list__item app js-app"
 				href="https://airhorner.com/"
 				data-app="air-horner"
 				data-tags="tool demo">
@@ -1093,7 +1110,7 @@
 	</footer>
 
 	<script src="script.js"></script>
-	
+
 
 </body>
 </html>
