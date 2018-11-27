@@ -41,6 +41,11 @@
 			business
 		</label>
 
+		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="finance" id="tags-finance">
+		<label class="tags__label" for="tags-finance">
+			finance
+		</label>
+
 		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="demo" id="tags-demo">
 		<label class="tags__label" for="tags-demo">
 			demo
@@ -89,6 +94,23 @@
 	</nav>
 
 	<main class="list js-list" data-filter="all">
+
+		<a class="list__item app js-app"
+		   href="https://expense-calculator.com/"
+		   data-app="expense-calculator"
+		   data-tags="business finance other">
+			<div class="app__wrapper">
+				<h2 class="app__title">
+					Expense Calculator
+				</h2>
+			</div>
+			<style>
+				[data-app='expense-calculator'] {
+					color: #673AB7;
+					background: currentColor url(apps/expense-calculator.svg) 50% 50% / 50% auto no-repeat;
+				}
+			</style>
+		</a>
 
 		<a class="list__item app js-app"
 				href="https://airhorner.com/"
@@ -1093,7 +1115,7 @@
 	</footer>
 
 	<script src="script.js"></script>
-	
+
 
 </body>
 </html>
