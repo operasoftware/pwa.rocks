@@ -81,6 +81,11 @@
 			tool
 		</label>
 
+		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="education" id="tags-education">
+		<label class="tags__label" for="tags-education">
+			education
+		</label>
+
 		<input class="tags__radio hidden js-tag" type="radio" name="tag" value="other" id="tags-other">
 		<label class="tags__label" for="tags-other">
 			other
@@ -129,7 +134,22 @@
 				data-app="babe"
 				data-tags="news business">
 			<div class="app__wrapper">
-				<h2 class="app__title">
+				<h2 class="app__title"><a class="list__item app js-app"
+		href="URL"
+		data-app="ID"
+		data-tags="TAGS">
+	<div class="app__wrapper">
+		<h2 class="app__title">
+			TITLE
+		</h2>
+	</div>
+	<style>
+		[data-app='ID'] {
+			color: COLOR;
+			background: currentColor url(apps/ID.svg) 50% 50% / 50% auto no-repeat;
+			}
+	</style>
+</a>
 					BaBe
 				</h2>
 			</div>
@@ -1077,6 +1097,22 @@
 		    </style>
 		</a>
 
+		<a class="list__item app js-app"
+				href="https://start.sketchometry.org/"
+				data-app="sketchometry"
+				data-tags="education demo">
+			<div class="app__wrapper">
+				<h2 class="app__title">
+					sketchometry
+				</h2>
+			</div>
+			<style>
+			[data-app='sketchometry'] {
+				color: #3366ff;
+				background: currentColor url(apps/sketchometry.svg) 50% 50% / 50% auto no-repeat;
+			}
+	</style>
+</a>		
 		<a class="list__item suggest js-suggest" href="https://github.com/pwarocks/pwa.rocks" title="Suggest an app">
 			<span class="hidden">Suggest an app</span>
 		</a>
