@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Screengify</title>
+    <desc>Screengify Web App</desc>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#212121" stroke-width="20" fill="#303030" x="10" y="10" width="492" height="492" rx="116"></rect>
+        <circle id="Oval" stroke="#F44336" stroke-width="20" fill-opacity="0" fill="#FAFAFA" cx="256" cy="256" r="128"></circle>
+    </g>
+</svg>
