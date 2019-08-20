@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="PENCIL" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0099CC;}
+	.st1{fill:#FFFFFF;}
+</style>
+<g>
+	<polygon class="st0" points="272,644 272,752 380,752 740,392 632,284 	"/>
+	<path class="st0" d="M512,0C229.2,0,0,229.2,0,512s229.2,512,512,512s512-229.2,512-512S794.8,0,512,0z M803,413L413,803
+		c-6,6-12,9-21,9H242c-18,0-30-12-30-30V632c0-9,3-15,9-21l390-390c12-12,30-12,42,0l150,150l0,0C815,383,815,401,803,413z"/>
+	<path class="st1" d="M803,371L653,221c-12-12-30-12-42,0L221,611c-6,6-9,12-9,21v150c0,18,12,30,30,30h150c9,0,15-3,21-9l390-390
+		C815,401,815,383,803,371L803,371z M380,752H272V644l360-360l108,108C740,392,380,752,380,752z"/>
+</g>
+</svg>
