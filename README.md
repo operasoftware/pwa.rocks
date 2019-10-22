@@ -31,7 +31,7 @@ This combination of features will trigger the web app install banner in [Opera](
 	</div>
 	<style>
 		[data-app='ID'] {
-			color: COLOR;
+			color: /* background color for the tile; best to match the logo background */;
 			background: currentColor url(apps/ID.svg) 50% 50% / 50% auto no-repeat;
 			}
 	</style>
